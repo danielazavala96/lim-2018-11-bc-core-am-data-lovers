@@ -19,12 +19,23 @@ const dataClone = (dataBank) => {
   return newDataBank;
 }
 //Esto funciona solo con la funcion de arriba
-//dataClone(allTheData);
+dataClone(allTheData);
 
 //const example = () => {
   //return 'example';
 //};
 
+/*let indicatorsList = " ";
+const dataIndicators = dataClone.PER;
+.filter( themes => themes.indicators.slice(0,6) === "value")
+.forEach(themes => {
+  const themesList = "list";
+  indicatorsList += themesList;
+});
+console.log("indicatorsList");*/
+
+
+/* declaracion para object window
 function filterData(PER) {
   return PER === [5];
 }
@@ -32,12 +43,12 @@ function filterData(PER) {
  const indicatorsList = PER.indicatorName.filter(filterData);
  }
 
- console.log(indicatorsList);
+ console.log(indicatorsList);*/
 
 
 //sortData(data, sortBy, sortOrder)
 //computeStats(data)
 window.data = {
-  filterData:filterData,
+  //filterData:filterData,
   //sortData:sortData
 };
